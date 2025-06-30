@@ -121,7 +121,7 @@ Twitter URL: ${q}
   },
   SINHALASUB: function (movieData) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *『 🅞🅢🅗🅐🅓🅐 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
 
 ✨ *𝙼𝚘𝚟𝚒𝚎 𝙽𝚊𝚖𝚎:* ${movieData.title}
 ⭐ *𝙸𝙼𝙳𝙱 𝚁𝚊𝚝𝚒𝚗𝚐:* ${movieData.rating?.value || "𝙽/𝙰"} ★
@@ -132,7 +132,7 @@ Twitter URL: ${q}
   },
   CINESUBZ: function (title, metadata, rating) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *『 🅞🅢🅗🅐🅓🅐  Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
 
 ✨ *𝙼𝚘𝚟𝚒𝚎 𝙽𝚊𝚖𝚎:* 𝘾𝙝𝙚𝙘𝙠 𝙞𝙩 𝙤𝙪𝙩 → ${title}
        
@@ -145,7 +145,7 @@ Twitter URL: ${q}
   },
   CINETVSHOW: function (movieResponse) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *『 🅞🅢🅗🅐🅓🅐  Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
 
 📺 *𝚃𝚅 𝚂𝚑𝚘𝚠:* ${movieResponse.episodeInfo?.title || "𝙽/𝙰"}
 🎞️ *𝙴𝚙𝚒𝚜𝚘𝚍𝚎 𝚃𝚒𝚝𝚕𝚎:* ${movieResponse.episodeInfo?.episodeTitle || "𝙽/𝙰"}
@@ -164,7 +164,7 @@ Twitter URL: ${q}
   },
   CINETVSHOWALLDL: function (movieData) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *『 🅞🅢🅗🅐🅓🅐  Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
 
 ✨ *𝙼𝚘𝚟𝚒𝚎 𝚃𝚒𝚝𝚕𝚎:* ${movieData.data.title}
 📆 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${movieData.data.releaseDate}
@@ -173,7 +173,7 @@ Twitter URL: ${q}
   },
   SINHALASUBTVSHOWALLDL: function (movieData) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+🎬 *『 🅞🅢🅗🅐🅓🅐 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
 
 ✨ *𝙼𝚘𝚟𝚒𝚎 𝚃𝚒𝚝𝚕𝚎:* ${movieData.data.showInfo.title}
 📆 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${movieData.data.showInfo.releaseDate}
